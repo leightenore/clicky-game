@@ -1,26 +1,39 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import AnimalCard from "./components/AnimalCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import animals from "./animals.json";
 
 class App extends Component {
+  state = {
+    animals,
+    clickedArray: [],
+    highscore: 0,
+    score: 0
+  };
+
+  handleClick = () => {
+    this.setState({  });
+  };
+
+  shuffleAnimals = () => {
+
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Wrapper>
+        <Title>Clicky Game</Title>
+        {this.state.animals.map(animals => (
+          <AnimalCard
+            id={animals.id}
+            key={animals.id}
+            name={animals.name}
+            image={animals.image}
+            handleClick={this.handleClick}
+          />
+        ))}
+      </Wrapper>
     );
   }
 }
