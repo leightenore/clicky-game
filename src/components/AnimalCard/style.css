@@ -7,17 +7,12 @@
   background-color: white;
   padding: 10px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  cursor: pointer;
 }
 
-.card > .img-container {
-  overflow: hidden;
-  text-align: center;
-}
-.card > .img-container > img {
+.card > img {
   height: 100%;
   width: 100%
 }
 
-.card > .content > ul > li {
-  margin-top: 18px;
-}
+

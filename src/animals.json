@@ -2,62 +2,74 @@
     {
       "id": 1,
       "name": "Bunny",
-      "image": "./images/bunny.jpg"
+      "image": "./images/bunny.jpg",
+      "clicked": false
     },
     {
       "id": 2,
       "name": "Elephant",
-      "image": "./images/elephant.jpg"
+      "image": "./images/elephant.jpg",
+      "clicked": false
     },
     {
       "id": 3,
       "name": "Giraffe",
-      "image": "./images/giraffe.jpg"
+      "image": "./images/giraffe.jpg",
+      "clicked": false
     },
     {
       "id": 4,
       "name": "Horse",
-      "image": "./images/horse.jpg"
+      "image": "./images/horse.jpg",
+      "clicked": false
     },
     {
       "id": 5,
       "name": "Kitten",
-      "image": "./images/kitten.jpg"
+      "image": "./images/kitten.jpg",
+      "clicked": false
     },
     {
       "id": 6,
       "name": "Lion",
-      "image": "./images/lion.jpg"
+      "image": "./images/lion.jpg",
+      "clicked": false
     },
     {
       "id": 7,
       "name": "Monkey",
-      "image": "./images/monkey.jpg"
+      "image": "./images/monkey.jpg",
+      "clicked": false
     },
     {
       "id": 8,
       "name": "Penguin",
-      "image": "./images/penguin.jpg"
+      "image": "./images/penguin.jpg",
+      "clicked": false
     },
     {
       "id": 9,
       "name": "Pig",
-      "image": "./images/pig.jpg"
+      "image": "./images/pig.jpg",
+      "clicked": false
     },
     {
       "id": 10,
       "name": "Puppy",
-      "image": "./images/puppy.jpeg"
+      "image": "./images/puppy.jpeg",
+      "clicked": false
     },
     {
       "id": 11,
       "name": "Red Panda",
-      "image": "./images/redpanda.jpg"
+      "image": "./images/redpanda.jpg",
+      "clicked": false
     },
     {
       "id": 12,
       "name": "Zebra",
-      "image": "./images/zebra.png"
+      "image": "./images/zebra.png",
+      "clicked": false
     }
   ]
   

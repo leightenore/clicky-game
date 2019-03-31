@@ -1,0 +1,17 @@
+.animalWrapper {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    min-height: 100vh;
+    padding: 10%;
+    width: 100%;
+    font-size: 1.7rem;
+    color: white;
+    font-family: 'Shadows Into Light Two';
+    text-shadow: 1px 2px #464646;
+  }
+  

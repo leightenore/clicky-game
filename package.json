@@ -22,5 +22,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:leightenore/clicky-game.git",
+  "author": "ltenore <leightenore@gmail.com>",
+  "license": "MIT"
 }
