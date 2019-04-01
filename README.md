@@ -13,3 +13,4 @@ A simple game built with React. The user starts by clicking one of the images on
 * Bootstrap
 * React
 * JSX
+* Yarn
